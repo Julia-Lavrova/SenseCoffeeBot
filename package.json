@@ -1,0 +1,10 @@
+{
+  "name": "SenseCoffeeBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Julia Lavrova",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^3.15.3"
+  }
+}
