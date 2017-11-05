@@ -30,7 +30,7 @@ bot.command('start', ({ reply }) =>
   )
 )
 
-const getMenu = (ctx) => ctx.replyWithPhoto('https://pp.userapi.com/c636929/v636929456/5f3ba/7QI_b7wbSOE.jpg');
+const getMenu = (ctx) => ctx.replyWithHTML('https://pp.userapi.com/c636929/v636929456/5f3ba/7QI_b7wbSOE.jpg');
 const getAddress = (ctx) => ctx.replyWithLocation(56.300535, 43.9835956).then(ctx.reply('Нижний Новгород, проспект Гагарина 21'));
 const getMode = (ctx) => ctx.reply(`
   пн-сб: 09:00 - 21:00
